@@ -1,0 +1,80 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 146px;
+    width: 100%;
+    height: 23px;
+    background: linear-gradient(270deg, #84BFD1 50%, rgba(132, 191, 209, 0) 100%);
+}
+
+.content {
+    text-align: center;
+}
+
+.content-1 {
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 94px;
+    width: 849px;
+    height: 188px;
+}
+
+.content-2 {
+    color: #FFFFFF;    
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 44px;
+    width: 595px;
+    height: 132px;
+    padding-top: 87px;
+}
+
+button {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: #5B89CE;
+    border: 2px solid #476443;
+    border-radius: 25px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 44px;
+    width: 352px;
+    height: 66px;
+    margin-top: 184px;
+}
+
+button:hover {
+    color: #5B89CE;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #1E1F1F;
+    font-weight: 700;
+    font-size: 38.5714px;
+    line-height: 45px;
+    margin-left: 80px;
+}
+
+a:hover {
+    color: blue;
+}
